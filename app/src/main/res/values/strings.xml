@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CoinToss</string>
+
+    <string name="string_lets_flip_the_coin" />
+    <string name="lets_flip_the_coin">LETS FLIP THE COIN</string>
+    <string name="button">Button</string>
+    <string name="toss">TOSS</string>
+    <string name="todo">TODO</string>
+    <string name="press_1_head_npress_2_tail_npress_3_draw">Press 1 = Head\nPress 2 = Tail\nPress 3 = Draw</string>
+    <string name="string_press_1_head_npress_2_tail_npress_3_draw" />
+    <string name="press_1_for_head_npress_2_for_tail_npress_3_for_draw">Press 1 for Head\nPress 2 for Tail\nPress 3 for Draw</string>
+    <string name="name">Name</string>
+
+    <string name="string_enter_your_call" />
+    <string name="enter_your_call">Enter your Call</string>
+    <string name="textview">TextView</string>
+
+    <string name="string_gotcha" />
+    <string name="gotcha">GOTCHA</string>
+
+
+
+</resources>

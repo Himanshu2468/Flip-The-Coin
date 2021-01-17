@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000809"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cointoss"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="32dp"
+        android:shadowColor="#DD0707"
+        android:text="@string/lets_flip_the_coin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#EA1717"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/toss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="362dp"
+        android:layout_height="475dp"
+        android:layout_marginEnd="25dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/head" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="396dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="cursive"
+        android:text="Press 1 for Head\nPress 2 for Tail\nPress 3 for Draw"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#009688"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="135dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="136dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_your_call"
+        android:inputType="number|textPersonName"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFEB3B"
+        android:textColorHint="#FFEB3B"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="309dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/gotcha"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#F80505"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="124dp"
+        android:layout_height="114dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/sa"
+        android:contentDescription="@string/todo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
